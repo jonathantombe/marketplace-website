@@ -149,7 +149,7 @@ header .container{
     position: absolute;
     top: calc(100% + 20px);
     right: 0;
-    width: 250px;
+    width: 150px;
     padding: 15px;
     border-radius: 8px;
     transform: scale(0.8);
@@ -158,6 +158,7 @@ header .container{
     visibility: hidden;
     pointer-events: none;
     transition: var(--transition);
+    text-align: center;
 }
 .navbar.active{
     transform: scale(1);
@@ -545,9 +546,12 @@ header .container{
 }
 .footer-top .logo {
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
 }
 .footer-brand{
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    text-align: center;
 }
 .footer-brand-text{
     display: none;
@@ -560,7 +564,7 @@ header .container{
 }
 .social-list{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -578,7 +582,7 @@ header .container{
 } 
 .footer-link-box{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
 }
 .footer-item-title{
